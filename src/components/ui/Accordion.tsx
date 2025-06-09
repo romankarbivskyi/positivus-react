@@ -70,8 +70,8 @@ const AccordionItem = ({ children, value }: AccordionItemProps) => {
     <AccordionItemContext.Provider value={value}>
       <div
         className={cn(
-          "shadow-[0_5px_0_0_theme('colors.dark')] cursor-pointer overflow-hidden rounded-[45px] border border-black px-15 transition-all duration-200",
-          isOpen ? "bg-green h-auto" : "bg-gray max-h-35",
+          "shadow-[0_5px_0_0_theme('colors.dark')] cursor-pointer overflow-hidden rounded-[45px] border border-black px-7.5 transition-all duration-200 md:px-15",
+          isOpen ? "bg-green h-auto" : "bg-gray max-h-25 md:max-h-35",
         )}
         onClick={handleClick}
       >
@@ -89,7 +89,7 @@ const AccordionTrigger = ({ children }: AccordionTriggerProps) => {
   return (
     <div
       className={cn(
-        "flex h-35 items-center justify-between py-[41px]",
+        "flex h-25 items-center justify-between py-[41px] md:h-35",
         isOpen ? "mb-[30px] border-b" : "",
       )}
     >

@@ -59,11 +59,13 @@ const WorkingProcess = () => {
             <AccordionItem value={`val${index + 1}`}>
               <AccordionTrigger>
                 <div className="flex items-center gap-[25px]">
-                  <h1>
+                  <span className="text-3xl font-medium md:text-6xl">
                     {index + 1 < 10 ? "0" : ""}
                     {index + 1}
-                  </h1>
-                  <h3>{title}</h3>
+                  </span>
+                  <p className="text text-[18px] font-medium md:text-3xl">
+                    {title}
+                  </p>
                 </div>
               </AccordionTrigger>
               <AccordionContent>{content}</AccordionContent>
