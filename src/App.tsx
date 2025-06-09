@@ -4,6 +4,7 @@ import {
   CTACard,
   Header,
   Hero,
+  Team,
   WorkingProcess,
 } from "./components";
 import Services from "./components/Services";
@@ -32,6 +33,10 @@ const App = () => {
       <div className="h-35"></div>
 
       <WorkingProcess />
+
+      <div className="h-35"></div>
+
+      <Team />
     </div>
   );
 };
