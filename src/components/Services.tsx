@@ -149,7 +149,7 @@ const Service = ({ className, title, image, link }: ServiceProps) => {
   return (
     <div
       className={cn(
-        "shadow-[0_5px_0_0_theme('colors.dark')] relative flex h-full w-full flex-col justify-between rounded-[45px] border border-black p-[50px] sm:flex-row",
+        "shadow-[0_5px_0_0_theme('colors.dark')] relative flex h-full w-full flex-col justify-between gap-5 rounded-[45px] border border-black p-[50px] sm:flex-row",
         className,
       )}
     >
@@ -166,7 +166,10 @@ const Service = ({ className, title, image, link }: ServiceProps) => {
           variant="primary"
           color={link.color}
           background={link.background}
-          className={cn("absolute bottom-[50px] left-[50px]", link.className)}
+          className={cn(
+            "absolute bottom-[50px] left-[50px] sm:static",
+            link.className,
+          )}
           hideText
         >
           Learn more
@@ -175,7 +178,7 @@ const Service = ({ className, title, image, link }: ServiceProps) => {
       <img
         src={image.url}
         alt={image?.label}
-        className="w-2/5 max-w-[210px] self-end object-contain sm:w-full sm:self-center"
+        className="w-2/5 max-w-36 self-end object-contain sm:w-full sm:self-center xl:max-w-[210px]"
       />
     </div>
   );
