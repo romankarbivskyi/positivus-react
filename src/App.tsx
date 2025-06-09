@@ -1,4 +1,4 @@
-import { Companies, CTACard, Header, Hero } from "./components";
+import { CaseStudies, Companies, CTACard, Header, Hero } from "./components";
 import Services from "./components/Services";
 
 const App = () => {
@@ -17,6 +17,10 @@ const App = () => {
       <div className="h-25"></div>
 
       <CTACard />
+
+      <div className="h-35"></div>
+
+      <CaseStudies />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { cva } from "class-variance-authority";
 type ArrowLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   variant?: "primary" | "secondary";
   color?: "white" | "black" | "green";
-  background?: "white" | "black" | "green";
+  background?: "white" | "black" | "green" | "dark";
   hideText?: boolean;
 };
 
@@ -38,6 +38,7 @@ const iconVariants = cva("", {
       green: "bg-green",
       white: "bg-white",
       black: "bg-black",
+      dark: "bg-dark",
     },
   },
   defaultVariants: {
