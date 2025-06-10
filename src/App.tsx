@@ -5,6 +5,7 @@ import {
   Header,
   Hero,
   Team,
+  Testimonials,
   WorkingProcess,
 } from "./components";
 import Services from "./components/Services";
@@ -37,6 +38,10 @@ const App = () => {
       <div className="h-35"></div>
 
       <Team />
+
+      <div className="h-25"></div>
+
+      <Testimonials />
     </div>
   );
 };

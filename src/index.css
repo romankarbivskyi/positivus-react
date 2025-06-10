@@ -64,3 +64,26 @@
     font-size: 20px;
   }
 }
+
+.swiper-custom-bullet {
+  -webkit-mask-image: url(../public/icons/star.svg);
+  mask-image: url(../public/icons/star.svg);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+  @apply mx-1 block h-3.5 w-3.5 cursor-pointer bg-white;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-custom-bullet:hover {
+  @apply scale-110 opacity-80;
+}
+
+.swiper-custom-bullet.swiper-custom-bullet_active {
+  @apply bg-green;
+}
+
+.swiper-next-button:disabled *,
+.swiper-prev-button:disabled * {
+  @apply opacity-70;
+}
