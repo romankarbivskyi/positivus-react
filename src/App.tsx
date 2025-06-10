@@ -1,6 +1,7 @@
 import {
   CaseStudies,
   Companies,
+  ContactUs,
   CTACard,
   Header,
   Hero,
@@ -12,7 +13,7 @@ import Services from "./components/Services";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
 
       <Hero />
@@ -42,6 +43,10 @@ const App = () => {
       <div className="h-25"></div>
 
       <Testimonials />
+
+      <div className="h-35"></div>
+
+      <ContactUs />
     </div>
   );
 };

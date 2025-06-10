@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import "tailwindcss";
-@import "tailwindcss";
-@import "tailwindcss";
 
 @theme {
   --color-green: #b9ff66;
@@ -86,4 +84,12 @@
 .swiper-next-button:disabled *,
 .swiper-prev-button:disabled * {
   @apply opacity-70;
+}
+
+.checkmark {
+  @apply relative block h-7 w-7 rounded-full border;
+}
+
+input:checked ~ .checkmark::before {
+  @apply bg-green absolute top-1/2 left-1/2 block h-4 w-4 -translate-1/2 rounded-full content-[""];
 }
