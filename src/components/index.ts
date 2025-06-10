@@ -7,3 +7,4 @@ export { default as WorkingProcess } from "./WorkingProcess";
 export { default as Team } from "./Team";
 export { default as Testimonials } from "./Testimonials";
 export { default as ContactUs } from "./ContactUs";
+export { default as Footer } from "./Footer";

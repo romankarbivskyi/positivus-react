@@ -3,6 +3,7 @@ import {
   Companies,
   ContactUs,
   CTACard,
+  Footer,
   Header,
   Hero,
   Team,
@@ -47,6 +48,10 @@ const App = () => {
       <div className="h-35"></div>
 
       <ContactUs />
+
+      <div className="h-25"></div>
+
+      <Footer />
     </div>
   );
 };
