@@ -1,9 +1,10 @@
 import { navLinks } from "@/data/navLinks";
 import { Button } from "./ui";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
-    <header className="container mx-auto mt-10 flex justify-between px-5 sm:px-10">
+    <header className="container mx-auto mt-10 flex items-center justify-between px-5 sm:px-10">
       <img
         src="/images/common/logo.png"
         alt="Logo"
@@ -22,6 +23,7 @@ const Header = () => {
 
         <Button variant="secondary">Request a quote</Button>
       </nav>
+      <MobileNav />
     </header>
   );
 };

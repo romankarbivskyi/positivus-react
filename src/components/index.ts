@@ -8,3 +8,4 @@ export { default as Team } from "./Team";
 export { default as Testimonials } from "./Testimonials";
 export { default as ContactUs } from "./ContactUs";
 export { default as Footer } from "./Footer";
+export { default as MobileNav } from "./MobileNav";
