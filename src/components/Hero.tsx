@@ -8,7 +8,7 @@ const Hero = () => {
         <img
           src="/images/hero/illustration.png"
           alt="Illustration"
-          className="lg:absolute lg:top-0.5 lg:right-0"
+          className="lg:absolute lg:top-0.5 lg:right-7"
         />
         <p>
           Our digital marketing agency helps businesses grow and succeed online

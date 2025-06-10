@@ -3,17 +3,17 @@ import { Button } from "./ui";
 
 const Header = () => {
   return (
-    <header className="container mx-auto mt-[60px] flex justify-between px-5 sm:px-10">
+    <header className="container mx-auto mt-10 flex justify-between px-5 sm:px-10">
       <img
         src="/images/common/logo.png"
         alt="Logo"
         className="object-contain"
       />
-      <nav className="hidden items-center gap-[40px] xl:flex">
-        <ul className="flex items-center gap-[40px]">
+      <nav className="hidden items-center gap-10 xl:flex">
+        <ul className="flex items-center gap-10">
           {navLinks.map(({ label, url }) => (
             <li>
-              <a href={url} className="text-[20px] leading-[28px]">
+              <a href={url} className="text-[20px] leading-7">
                 {label}
               </a>
             </li>

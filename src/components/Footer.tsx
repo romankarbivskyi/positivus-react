@@ -17,7 +17,7 @@ const Footer = () => {
                 <li>
                   <a
                     href={url}
-                    className="text-[20px] leading-[28px] text-white"
+                    className="border-b border-white text-[20px] leading-[28px] text-white"
                   >
                     {label}
                   </a>

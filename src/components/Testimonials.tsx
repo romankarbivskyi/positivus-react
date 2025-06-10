@@ -53,7 +53,7 @@ const Testimonials = () => {
             ))}
           </Swiper>
         </div>
-        <div className="mt-[124px] flex items-center justify-center gap-10 sm:gap-20 md:gap-[190px]">
+        <div className="mt-15 flex items-center justify-center gap-10 sm:gap-20 md:mt-[124px] md:gap-[190px]">
           <button className="swiper-prev-button">
             <FaArrowLeft className="fill-white" size={30} />
           </button>
