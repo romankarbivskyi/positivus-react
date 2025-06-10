@@ -28,6 +28,7 @@ const CaseStudies = () => {
               Learn more
             </ArrowLink>
           </div>
+          <div className="my-[42px] hidden border-l-2 border-white xl:block"></div>
           <div className="bg-dark flex flex-col gap-5 rounded-[45px] px-[50px] py-[42px]">
             <p className="text-white">
               For a B2B software company, we developed an SEO strategy that
@@ -44,6 +45,7 @@ const CaseStudies = () => {
               Learn more
             </ArrowLink>
           </div>
+          <div className="my-[42px] hidden border-l-2 border-white xl:block"></div>
           <div className="bg-dark flex flex-col gap-5 rounded-[45px] px-[50px] py-[42px]">
             <p className="text-white">
               For a national retail chain, we created a social media marketing
