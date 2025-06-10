@@ -7,40 +7,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Heading } from "./ui";
-
-interface ITestimonial {
-  text: string;
-  name: string;
-  role: string;
-}
-
-const testimonialList: ITestimonial[] = [
-  {
-    text: `"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."`,
-    name: "John Smith",
-    role: "Marketing Director at XYZ Corp",
-  },
-  {
-    text: `"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."`,
-    name: "John Smith",
-    role: "Marketing Director at XYZ Corp",
-  },
-  {
-    text: `"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."`,
-    name: "John Smith",
-    role: "Marketing Director at XYZ Corp",
-  },
-  {
-    text: `"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."`,
-    name: "John Smith",
-    role: "Marketing Director at XYZ Corp",
-  },
-  {
-    text: `"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."`,
-    name: "John Smith",
-    role: "Marketing Director at XYZ Corp",
-  },
-];
+import { testimonialList } from "@/data/testimonials";
+import { ITestimonial } from "@/types";
 
 const Testimonials = () => {
   return (

@@ -1,12 +1,5 @@
+import { navLinks } from "@/data/navLinks";
 import { Button } from "./ui";
-
-const navLinks = [
-  { label: "About us", url: "#" },
-  { label: "Services", url: "#" },
-  { label: "Use Cases", url: "#" },
-  { label: "Pricing", url: "#" },
-  { label: "Blog", url: "#" },
-];
 
 const Header = () => {
   return (
