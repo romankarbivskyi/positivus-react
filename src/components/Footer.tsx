@@ -48,7 +48,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Email"
-              className="rounded-[14px] border border-white px-[25px] py-[21px] text-white sm:px-[35px] sm:py-[22px]"
+              className="focus:outline-green rounded-[14px] border border-white px-[25px] py-[21px] text-white sm:px-[35px] sm:py-[22px]"
             />
             <Button variant="tertiary" className="text-nowrap">
               Subscribe to news
