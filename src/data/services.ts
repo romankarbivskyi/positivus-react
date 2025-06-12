@@ -8,7 +8,7 @@ export const services: ServiceProps[] = [
       color: "green",
     },
     image: {
-      url: "/images/services/tokyo-magnifier-web-search-with-elements.png",
+      url: "/positivus-react/images/services/tokyo-magnifier-web-search-with-elements.png",
       label: "tokyo-magnifier-web-search-with-elements",
     },
     link: {
@@ -25,7 +25,7 @@ export const services: ServiceProps[] = [
       color: "white",
     },
     image: {
-      url: "/images/services/tokyo-selecting-a-value-in-the-browser-window.png",
+      url: "/positivus-react/images/services/tokyo-selecting-a-value-in-the-browser-window.png",
       label: "tokyo-selecting-a-value-in-the-browser-window",
     },
     link: {
@@ -42,7 +42,7 @@ export const services: ServiceProps[] = [
       color: "white",
     },
     image: {
-      url: "/images/services/tokyo-browser-window-with-emoticon-likes-and-stars-around.png",
+      url: "/positivus-react/images/services/tokyo-browser-window-with-emoticon-likes-and-stars-around.png",
       label: "tokyo-browser-window-with-emoticon-likes-and-stars-around",
     },
     link: {
@@ -59,7 +59,7 @@ export const services: ServiceProps[] = [
       color: "white",
     },
     image: {
-      url: "/images/services/tokyo-sending-messages-from-one-place-to-another.png",
+      url: "/positivus-react/images/services/tokyo-sending-messages-from-one-place-to-another.png",
       label: "tokyo-sending-messages-from-one-place-to-another",
     },
     link: {
@@ -76,7 +76,7 @@ export const services: ServiceProps[] = [
       color: "white",
     },
     image: {
-      url: "/images/services/tokyo-many-browser-windows-with-different-information.png",
+      url: "/positivus-react/images/services/tokyo-many-browser-windows-with-different-information.png",
       label: "tokyo-many-browser-windows-with-different-information",
     },
     link: {
@@ -93,7 +93,7 @@ export const services: ServiceProps[] = [
       color: "white",
     },
     image: {
-      url: "/images/services/tokyo-volumetric-analytics-of-different-types-in-web-browsers.png",
+      url: "/positivus-react/images/services/tokyo-volumetric-analytics-of-different-types-in-web-browsers.png",
       label: "tokyo-volumetric-analytics-of-different-types-in-web-browsers",
     },
     link: {

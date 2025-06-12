@@ -69,7 +69,7 @@ const ContactUs = () => {
           </div>
         </form>
         <img
-          src="/images/contact-us/Illustration.png"
+          src="/positivus-react/images/contact-us/Illustration.png"
           alt="Contact Us img"
           className="absolute top-1/2 -right-2/8 hidden -translate-y-1/2 object-contain xl:block"
         />

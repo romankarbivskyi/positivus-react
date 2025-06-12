@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="w-full space-y-[35px] lg:w-2/5">
         <h1>Navigating the digital landscape for success</h1>
         <img
-          src="/images/hero/illustration.png"
+          src="/positivus-react/images/hero/illustration.png"
           alt="Illustration"
           className="lg:absolute lg:top-0.5 lg:right-7"
         />

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="bg-dark rounded-t-[45px] px-5 py-12.5 sm:px-15 sm:py-[55px]">
         <div className="mb-15 flex flex-col items-center justify-between gap-9 xl:flex-row">
           <img
-            src="/images/common/logo-white.png"
+            src="/positivus-react/images/common/logo-white.png"
             alt="Logo"
             className="object-contain"
           />
@@ -26,9 +26,18 @@ const Footer = () => {
             </ul>
           </nav>
           <div className="flex gap-5">
-            <img src="/icons/social-media/linked-in.svg" alt="LinkedIn" />
-            <img src="/icons/social-media/facebook.svg" alt="Facebook" />
-            <img src="/icons/social-media/twitter.svg" alt="Twitter" />
+            <img
+              src="/positivus-react/icons/social-media/linked-in.svg"
+              alt="LinkedIn"
+            />
+            <img
+              src="/positivus-react/icons/social-media/facebook.svg"
+              alt="Facebook"
+            />
+            <img
+              src="/positivus-react/icons/social-media/twitter.svg"
+              alt="Twitter"
+            />
           </div>
         </div>
         <div className="flex flex-col items-center justify-between gap-20 md:flex-row">

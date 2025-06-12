@@ -14,7 +14,7 @@ const CTACard = () => {
         </div>
       </div>
       <img
-        src="/images/cta/Illustration.png"
+        src="/positivus-react/images/cta/Illustration.png"
         alt="CTA illustration"
         className="absolute top-1/2 right-0 hidden -translate-1/2 lg:block"
       />

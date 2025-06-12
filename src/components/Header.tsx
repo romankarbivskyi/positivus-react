@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="container mx-auto mt-10 flex items-center justify-between px-5 sm:px-10">
       <img
-        src="/images/common/logo.png"
+        src="/positivus-react/images/common/logo.png"
         alt="Logo"
         className="object-contain"
       />
